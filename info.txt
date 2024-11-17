@@ -1,0 +1,11 @@
+-- gpu 환경 : nvidia rtx 2080
+-- 원 저작자의 hugging face repository clone 후 수정사항
+    - torch==2.0.1 torchvision==0.15.2 으로 낮은 버전 설치필요
+    - default="booksforcharlie/stable-diffusion-inpainting" 이 부분에서, .safetensors 파일 없어서 pickle로 .bin 파일 자동설치됨
+    - app.py에서 line 81. mixed precision default 값 no 로 설정
+    - pipeline.py 에서 line53부분 주석처리
+
+
+-- 이후 masking 생성과 관련한 부분 customizing을 위해 app.py 수정
+    - fitting_type 매개변수 submit_function() 메소드 등에 추가하였음.(그 외 관련된 부분들에)
+    - app.py의 # process mask 부분 수정
