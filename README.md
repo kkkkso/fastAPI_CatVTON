@@ -1,20 +1,11 @@
 # Original Model Used
 이 섹션에서는 프로젝트에 사용된 원본 모델 CatVTON의 주요 설정을 명시한다
 
-'''
-title: CatVTON
-emoji: 🐈
-colorFrom: indigo
-colorTo: blue
-sdk: gradio
-sdk_version: 4.40.0
-app_file: app.py
-pinned: false
+
+https://github.com/Zheng-Chong/CatVTON 
 license: cc-by-nc-sa-4.0
-'''
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-
 
 # dressmyfit(part2)
 
