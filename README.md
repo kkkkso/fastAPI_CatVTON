@@ -1,4 +1,5 @@
 # Original Model Used
+이 섹션에서는 프로젝트에 사용된 원본 모델 CatVTON의 주요 설정을 명시한다
 
 ---
 title: CatVTON
