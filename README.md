@@ -19,6 +19,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
    - Environment
    - 터미널 명령어
 
+3. Poster
 ---
 
 ## 1. 전체 서비스 소개 (Part1 + Part2)
@@ -96,3 +97,5 @@ Fit, Standard, Loose의 세 가지 피팅 타입을 사용자가 설정할 수 �
    uvicorn api2:app --reload --ws websockets --port 3000 --host 0.0.0.0
    ```
 
+## 3. Poster
+![1911856 김시영_졸업포스터_최종_pages-to-jpg-0001](https://github.com/user-attachments/assets/d325bed8-b8ca-4696-ac27-a874cb6ff214)
